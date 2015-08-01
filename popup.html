@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="content">
+        <!-- 分页 -->
+        <ul class="nav-tabs">
+            <li class="tab on" id="normal-tab">一键打开</li>
+            <li class="tab" id="set-tab">设置规则</li>
+        </ul>
+        
+        <!-- 表格-->
+        <div class="table">
+            <!-- 搜索-->
+            <div class="search">
+                <input type="text" id="serch_input" name="q" placeholder=""/>
+                <input type="button" id="search-btn" value="筛选"/>
+            </div>
+
+            <div class="tabletitle">
+                <span class="title">标题</span>
+                <span class="webname">网名</span>
+                <span class="check">勾选</span>
+            </div>
+            <div class="tablelist">
+                <ul>
+                    <li id="ddd">
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <input type="checkbox"/>
+                    </li>
+                    <li id="ddd">
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <input type="checkbox"/>
+                    </li>
+                    <li id="ddd">
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <input type="checkbox"/>
+                    </li>
+                    <li id="ddd">
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <span class="title"><a href="www.baidu.com">标题</a></span>
+                        <input type="checkbox"/>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- 操作-->
+            <input id="openall" type="button" value="打开所有" />
+        </div>
+        <!-- 配置 -->
+        <div class="config-page">
+            <textarea rows="10">暂时无法自定义</textarea>
+        </div>
+
+         
+    </div>
+
+</body>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="popup.js"></script>
+</html>

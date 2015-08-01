@@ -1,0 +1,109 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;margin:0;padding:0;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}table{border-collapse:collapse;border-spacing:0}input{border:0;margin:0;padding:0}
+body{color:#777;font-size:14px;font-family:"Microsoft yahei",Hei,arial,sans-serif}a{color:#36c;text-decoration:none}h1,h2{color:#000}
+
+.hide{
+    display: none;
+}
+
+.clear{clear:both;height:0;overflow:hidden;}
+
+body{
+    width:400px;
+    height:400px;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.nav-tabs{
+    height: 30px;
+    border-bottom: solid 1px #ddd;
+}
+.nav-tabs li{
+    float:left;
+    height:30px;
+    width: 100px;
+    line-height:30px;
+    text-align: center;
+    cursor:pointer;
+}
+.nav-tabs .on{
+    border:solid 1px #ddd;
+    border-bottom-color:transparent;
+    background:white;
+    border-radius:4px 4px 0 0;
+    margin-bottom:-1px;
+}
+
+.search{
+    margin-top: 10px;
+}
+
+#search-btn{
+    width: 102px;
+    height: 28px;
+    border: 1px solid #38f;
+    border-bottom: 1px solid #2e7ae5;
+    background-color: #38f;
+    cursor:pointer;
+}
+#serch_input {
+    width:200px;
+    height: 28px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+.table .tabletitle{
+    height: 50px;
+    width: 300px;
+    line-height: 40px;
+    border-bottom: 1px solid #2e7ae5;
+}
+
+.table span{
+    float: left;
+    cursor:pointer;
+}
+
+.table .title{
+    width:100px;
+}
+
+.table .webname{
+    width:100px;
+}
+
+.table .check{
+    width:100px;
+}
+
+.table li{
+    position:relative;
+    height:28px;
+    line-height:28px;
+    border-bottom:solid 1px #e4e4e4;
+}
+
+.table .tablelist{
+    clear: both;
+}
+
+#openall{
+    width: 100px;
+    height: 30px;
+    background-color: #38f;
+    margin-left: 200px;
+    cursor:pointer;
+}
+
+.config-page{
+    width: 80%;
+    margin:0 auto;
+    margin-top: 30px;
+}
+
+textarea{
+    width: 100%;
+}

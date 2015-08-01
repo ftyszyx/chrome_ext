@@ -26,7 +26,7 @@
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmAeDk5LYTK7m99wzAsJuuHB2iqeISx7NRlfJMqp2wMCyybnaObREkqOaI33Micshp/r9WBo9g91UqmWPmpeOSkYqQGh4p/Wh6RiqOOkJxRslUFEjlGcNrRrxdutOKBZjDY0O33FgQfDdkREDkzor7LvX5F/leQyq39zbO8/MPwwIDAQAB",
    "manifest_version": 2,
    "name": "hacknews helper",
-   "permissions": [ "tabs"],
+   "permissions": [ "tabs","history"],
    "options_page": "options.html",
    "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query",
    "version": "1.0.0"

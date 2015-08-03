@@ -7,3 +7,7 @@
 
 
 ![效果图](/view.png)
+
+
+[下载插件](/hackernews_helper.crx)
+直接拖入chrome浏览器中即可安装。
